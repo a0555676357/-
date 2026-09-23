@@ -3,159 +3,113 @@ using System.Text.Json;
 
 namespace GTSErpSystem.UI;
 
-/// <summary>
-/// نافذة التنقل الرئيسية للنظام.
-/// تعرض النوافذ مرتبة حسب الوحدة، وتحاول فتح النموذج الفعلي أولًا،
-/// ثم تستخدم EntityBrowserForm عندما يكون للنموذج كيان قاعدة بيانات.
-/// </summary>
 public sealed class MainForm : Form
 {
     private readonly string _connectionString;
     private readonly string _user;
-    private readonly TreeView _tree = new()
-    {
-        Dock = DockStyle.Right,
-        Width = 320,
-        HideSelection = false,
-        RightToLeft = RightToLeft.Yes
-    };
-    private readonly Panel _content = new() { Dock = DockStyle.Fill };
-    private readonly Label _status = new()
-    {
-        Dock = DockStyle.Bottom,
-        Height = 30,
-        TextAlign = ContentAlignment.MiddleRight,
-        Padding = new Padding(8)
-    };
+    private readonly TreeView _tree = new() { Dock = DockStyle.Right, Width = 320, HideSelection = false };
+    private readonly StatusStrip _status = new();
+    private readonly ToolStripStatusLabel _statusText = new("جاهز");
     private readonly List<CatalogItem> _catalog = new();
 
     public MainForm(string connectionString, string user)
     {
         _connectionString = connectionString;
         _user = user;
-
         Text = $"نظام الصقر المحاسبي — {_user}";
+        IsMdiContainer = true;
         WindowState = FormWindowState.Maximized;
         RightToLeft = RightToLeft.Yes;
         RightToLeftLayout = true;
         StartPosition = FormStartPosition.CenterScreen;
-
-        Controls.Add(_content);
+        MainMenuStrip = BuildMainMenu();
         Controls.Add(_tree);
+        _status.Items.Add(_statusText);
         Controls.Add(_status);
         _tree.AfterSelect += OpenSelected;
-
         BuildMenu();
+    }
+
+    private MenuStrip BuildMainMenu()
+    {
+        var menu = new MenuStrip();
+        var window = new ToolStripMenuItem("النوافذ");
+        window.DropDownItems.Add("إغلاق النافذة الحالية", null, (_, _) => ActiveMdiChild?.Close());
+        window.DropDownItems.Add("إغلاق جميع النوافذ", null, (_, _) =>
+        {
+            foreach (var child in MdiChildren) child.Close();
+        });
+        window.DropDownItems.Add("تحديث القائمة", null, (_, _) => BuildMenu());
+        menu.Items.Add(window);
+        return menu;
     }
 
     private void BuildMenu()
     {
         _tree.Nodes.Clear();
         _catalog.Clear();
-
+        var path = Path.Combine(AppContext.BaseDirectory, "UI", "form-catalog.json");
         try
         {
-            var path = Path.Combine(AppContext.BaseDirectory, "UI", "form-catalog.json");
             if (File.Exists(path))
             {
                 var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
-                var items = JsonSerializer.Deserialize<List<CatalogItem>>(File.ReadAllText(path), options);
-                if (items is not null) _catalog.AddRange(items);
+                _catalog.AddRange(JsonSerializer.Deserialize<List<CatalogItem>>(File.ReadAllText(path), options) ?? new());
             }
+            foreach (var group in _catalog.Where(x => !string.IsNullOrWhiteSpace(x.Module))
+                         .GroupBy(x => x.Module, StringComparer.OrdinalIgnoreCase).OrderBy(x => x.Key))
+            {
+                var module = new TreeNode(group.Key);
+                foreach (var item in group.OrderBy(x => x.Name))
+                    module.Nodes.Add(new TreeNode(item.Name) { Tag = item });
+                _tree.Nodes.Add(module);
+                module.Expand();
+            }
+            _statusText.Text = $"تم تحميل {_catalog.Count} نافذة — المستخدم: {_user}";
         }
-        catch (Exception ex)
-        {
-            _status.Text = $"تعذر تحميل قائمة النوافذ: {ex.Message}";
-        }
-
-        foreach (var group in _catalog
-                     .Where(x => !string.IsNullOrWhiteSpace(x.Module))
-                     .GroupBy(x => x.Module, StringComparer.OrdinalIgnoreCase)
-                     .OrderBy(x => x.Key))
-        {
-            var moduleNode = new TreeNode(group.Key) { Name = group.Key };
-            foreach (var item in group.OrderBy(x => x.Name))
-                moduleNode.Nodes.Add(new TreeNode(item.Name) { Tag = item });
-            _tree.Nodes.Add(moduleNode);
-            moduleNode.Expand();
-        }
-
-        if (_tree.Nodes.Count > 0)
-            _tree.SelectedNode = _tree.Nodes[0].FirstNode;
+        catch (Exception ex) { ShowError("تعذر تحميل قائمة النوافذ", ex); }
     }
 
     private void OpenSelected(object? sender, TreeViewEventArgs e)
     {
         if (e.Node.Tag is not CatalogItem item) return;
-
         try
         {
             var form = CreateForm(item);
-            if (form is not null)
+            if (form is null && !string.IsNullOrWhiteSpace(item.Entity))
+                form = new EntityBrowserForm(_connectionString, item.Entity, item.Name);
+            if (form is null)
             {
-                ShowChild(form, item.Name);
+                MessageBox.Show($"النموذج {item.FullName} غير موجود في المصدر الحالي.", "تنبيه", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
             }
-
-            if (!string.IsNullOrWhiteSpace(item.Entity))
-            {
-                ShowChild(new EntityBrowserForm(_connectionString, item.Entity, item.Name), item.Name);
-                return;
-            }
-
-            ShowMessage($"النموذج {item.FullName} غير موجود في النسخة الحالية.", item.Name);
+            form.MdiParent = this;
+            form.RightToLeft = RightToLeft.Yes;
+            form.RightToLeftLayout = true;
+            form.Text = item.Name;
+            form.Show();
+            form.BringToFront();
+            _statusText.Text = $"مفتوح: {item.Name}";
         }
-        catch (Exception ex)
-        {
-            ShowMessage($"تعذر فتح {item.Name}: {ex.Message}", "خطأ");
-        }
+        catch (Exception ex) { ShowError($"تعذر فتح {item.Name}", ex); }
     }
 
     private Form? CreateForm(CatalogItem item)
     {
-        var type = Type.GetType(item.FullName, throwOnError: false)
-                   ?? Assembly.GetExecutingAssembly().GetType(item.FullName, throwOnError: false);
+        var type = Type.GetType(item.FullName, false) ?? Assembly.GetExecutingAssembly().GetType(item.FullName, false);
         if (type is null || !typeof(Form).IsAssignableFrom(type)) return null;
-
-        var withContext = type.GetConstructor(new[] { typeof(string), typeof(string) });
-        if (withContext is not null)
-            return (Form?)withContext.Invoke(new object[] { _connectionString, _user });
-
-        var withConnection = type.GetConstructor(new[] { typeof(string) });
-        if (withConnection is not null)
-            return (Form?)withConnection.Invoke(new object[] { _connectionString });
-
+        var context = type.GetConstructor(new[] { typeof(string), typeof(string) });
+        if (context is not null) return context.Invoke(new object[] { _connectionString, _user }) as Form;
+        var connection = type.GetConstructor(new[] { typeof(string) });
+        if (connection is not null) return connection.Invoke(new object[] { _connectionString }) as Form;
         return Activator.CreateInstance(type) as Form;
     }
 
-    private void ShowChild(Form child, string title)
+    private void ShowError(string title, Exception exception)
     {
-        child.StartPosition = FormStartPosition.CenterParent;
-        child.RightToLeft = RightToLeft.Yes;
-        child.RightToLeftLayout = true;
-        child.Text = title;
-        child.Show(this);
-        _status.Text = $"مفتوح: {title}";
+        _statusText.Text = title;
+        MessageBox.Show($"{title}\n{exception.Message}", "خطأ", MessageBoxButtons.OK, MessageBoxIcon.Error);
     }
 
-    private void ShowMessage(string message, string title)
-    {
-        _content.Controls.Clear();
-        _content.Controls.Add(new Label
-        {
-            Dock = DockStyle.Fill,
-            Text = message,
-            TextAlign = ContentAlignment.MiddleCenter,
-            Font = new Font(Font.FontFamily, 14),
-            RightToLeft = RightToLeft.Yes
-        });
-        _status.Text = title;
-    }
-
-    private sealed record CatalogItem(
-        string Name,
-        string FullName,
-        string Module,
-        string BaseType,
-        string? Entity);
+    private sealed record CatalogItem(string Name, string FullName, string Module, string BaseType, string? Entity);
 }

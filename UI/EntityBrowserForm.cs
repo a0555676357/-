@@ -1,11 +1,75 @@
-using Microsoft.Data.SqlClient;
 using System.Data;
+using Microsoft.Data.SqlClient;
+using GTSErpSystem.Data;
 
 namespace GTSErpSystem.UI;
 
-public sealed class EntityBrowserForm:Form
+/// <summary>عارض عام فعلي للجداول: تحميل، بحث، تصدير CSV، وإعادة تحميل.</summary>
+public sealed class EntityBrowserForm : Form
 {
-    readonly string _cs,_table; readonly DataGridView grid=new(){Dock=DockStyle.Fill,AutoSizeColumnsMode=DataGridViewAutoSizeColumnsMode.DisplayedCells,ReadOnly=true,AllowUserToAddRows=false}; readonly TextBox search=new(){Width=300};
-    public EntityBrowserForm(string cs,string table,string title){_cs=cs;_table=table;Text=title;Width=1100;Height=700;RightToLeft=RightToLeft.Yes;var top=new FlowLayoutPanel{Dock=DockStyle.Top,Height=45};top.Controls.Add(new Label{Text="بحث",AutoSize=true});top.Controls.Add(search);var b=new Button{Text="تحديث"};b.Click+=(s,e)=>LoadData();top.Controls.Add(b);Controls.Add(grid);Controls.Add(top);Load+=(_,_)=>LoadData();}
-    void LoadData(){try{using var c=new SqlConnection(_cs);c.Open();var sql=$"SELECT TOP 500 * FROM dbo.[{_table}]";if(search.Text.Trim().Length>0){var cols=new List<string>();using var qc=new SqlCommand("SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_SCHEMA='dbo' AND TABLE_NAME=@t",c);qc.Parameters.AddWithValue("@t",_table);using var rr=qc.ExecuteReader();while(rr.Read())cols.Add("["+rr.GetString(0).Replace("]","")+"] LIKE @s");rr.Close();if(cols.Count>0)sql+=" WHERE "+string.Join(" OR ",cols);};using var q=new SqlCommand(sql,c);if(search.Text.Trim().Length>0)q.Parameters.AddWithValue("@s","%"+search.Text.Trim()+"%");using var da=new SqlDataAdapter(q);var dt=new DataTable();da.Fill(dt);grid.DataSource=dt;}catch(Exception ex){MessageBox.Show(ex.Message,"خطأ");}}
+    private readonly string _table;
+    private readonly Db _db;
+    private readonly DataGridView _grid = new() { Dock = DockStyle.Fill, ReadOnly = true, AllowUserToAddRows = false, AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.DisplayedCells, SelectionMode = DataGridViewSelectionMode.FullRowSelect };
+    private readonly TextBox _search = new() { Width = 260, PlaceholderText = "بحث..." };
+    private readonly Label _count = new() { AutoSize = true, Padding = new Padding(8) };
+
+    public EntityBrowserForm(string connectionString, string table, string title)
+    {
+        _table = table;
+        _db = new Db(connectionString);
+        Text = title;
+        Width = 1100; Height = 700;
+        RightToLeft = RightToLeft.Yes;
+        RightToLeftLayout = true;
+        var toolbar = new FlowLayoutPanel { Dock = DockStyle.Top, Height = 45, FlowDirection = FlowDirection.RightToLeft, Padding = new Padding(6) };
+        var refresh = new Button { Text = "تحديث", AutoSize = true };
+        var export = new Button { Text = "تصدير CSV", AutoSize = true };
+        refresh.Click += (_, _) => LoadData();
+        export.Click += (_, _) => ExportCsv();
+        _search.KeyDown += (_, e) => { if (e.KeyCode == Keys.Enter) LoadData(); };
+        toolbar.Controls.Add(refresh); toolbar.Controls.Add(export); toolbar.Controls.Add(_search); toolbar.Controls.Add(_count);
+        Controls.Add(_grid); Controls.Add(toolbar);
+        Shown += (_, _) => LoadData();
+    }
+
+    private void LoadData()
+    {
+        try
+        {
+            var table = Db.Identifier(_table);
+            var sql = $"SELECT TOP (500) * FROM dbo.{table}";
+            var data = _db.Query(sql);
+            if (!string.IsNullOrWhiteSpace(_search.Text))
+            {
+                var view = data.DefaultView;
+                var text = _search.Text.Replace("'", "''");
+                var filters = data.Columns.Cast<DataColumn>().Select(c => $"CONVERT([{c.ColumnName}], 'System.String') LIKE '%{text}%'");
+                view.RowFilter = string.Join(" OR ", filters);
+                _grid.DataSource = view;
+                _count.Text = $"{view.Count} سجل";
+            }
+            else { _grid.DataSource = data; _count.Text = $"{data.Rows.Count} سجل"; }
+        }
+        catch (Exception ex)
+        {
+            _grid.DataSource = null;
+            _count.Text = "فشل التحميل";
+            MessageBox.Show($"تعذر قراءة الجدول [{_table}]\n{ex.Message}", "خطأ قاعدة البيانات", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        }
+    }
+
+    private void ExportCsv()
+    {
+        if (_grid.DataSource is not DataView view && _grid.DataSource is not DataTable) return;
+        using var dialog = new SaveFileDialog { Filter = "CSV|*.csv", FileName = $"{_table}.csv" };
+        if (dialog.ShowDialog(this) != DialogResult.OK) return;
+        var data = _grid.DataSource is DataView dv ? dv.ToTable() : (DataTable)_grid.DataSource;
+        using var writer = new StreamWriter(dialog.FileName, false, System.Text.Encoding.UTF8);
+        writer.WriteLine(string.Join(",", data.Columns.Cast<DataColumn>().Select(c => Csv(c.ColumnName))));
+        foreach (DataRow row in data.Rows)
+            writer.WriteLine(string.Join(",", row.ItemArray.Select(x => Csv(Convert.ToString(x) ?? ""))));
+        MessageBox.Show("تم التصدير بنجاح.", "تم", MessageBoxButtons.OK, MessageBoxIcon.Information);
+    }
+
+    private static string Csv(string value) => $"\"{value.Replace("\"", "\"\"")}\"";
 }
