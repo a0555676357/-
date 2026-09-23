@@ -1,0 +1,2585 @@
+[
+  {
+    "name": "FrmActivtion",
+    "fullName": "GTSErpSystem.FrmActivtion",
+    "module": "Core",
+    "baseType": "MetroFramework.Forms.MetroForm",
+    "entity": "FrmActivtion"
+  },
+  {
+    "name": "FrmActivtion3",
+    "fullName": "GTSErpSystem.FrmActivtion3",
+    "module": "Core",
+    "baseType": "MetroFramework.Forms.MetroForm",
+    "entity": "FrmActivtion3"
+  },
+  {
+    "name": "FrmCheckActivationCloseYear",
+    "fullName": "GTSErpSystem.FrmCheckActivationCloseYear",
+    "module": "Core",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "FrmCheckActivationCloseYear"
+  },
+  {
+    "name": "FrmLogin",
+    "fullName": "GTSErpSystem.FrmLogin",
+    "module": "Core",
+    "baseType": "System.Windows.Forms.Form",
+    "entity": "FrmLogin"
+  },
+  {
+    "name": "FrmLogin26",
+    "fullName": "GTSErpSystem.FrmLogin26",
+    "module": "Core",
+    "baseType": "MetroFramework.Forms.MetroForm",
+    "entity": "FrmLogin26"
+  },
+  {
+    "name": "FrmLogin3",
+    "fullName": "GTSErpSystem.FrmLogin3",
+    "module": "Core",
+    "baseType": "MaterialSkin.Controls.MaterialForm",
+    "entity": "FrmLogin3"
+  },
+  {
+    "name": "FrmCheckCollection",
+    "fullName": "GTSErpSystem.Frms.Account.Check.FrmCheckCollection",
+    "module": "Account",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmCheckCollectionIssued",
+    "fullName": "GTSErpSystem.Frms.Account.Check.FrmCheckCollectionIssued",
+    "module": "Account",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmCheckIssued",
+    "fullName": "GTSErpSystem.Frms.Account.Check.FrmCheckIssued",
+    "module": "Account",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmReceiptCheck",
+    "fullName": "GTSErpSystem.Frms.Account.Check.FrmReceiptCheck",
+    "module": "Account",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchCheckIssued",
+    "fullName": "GTSErpSystem.Frms.Account.Check.Search.FrmSearchCheckIssued",
+    "module": "Account",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchCheckRecipt",
+    "fullName": "GTSErpSystem.Frms.Account.Check.Search.FrmSearchCheckRecipt",
+    "module": "Account",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmAccountTree",
+    "fullName": "GTSErpSystem.Frms.Account.FrmAccountTree",
+    "module": "Account",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmCardAccount",
+    "fullName": "GTSErpSystem.Frms.Account.FrmCardAccount",
+    "module": "Account",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmCostCenter",
+    "fullName": "GTSErpSystem.Frms.Account.FrmCostCenter",
+    "module": "Account",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Account_CostCenters"
+  },
+  {
+    "name": "FrmCostCenterTree",
+    "fullName": "GTSErpSystem.Frms.Account.FrmCostCenterTree",
+    "module": "Account",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmDailyRestrictions",
+    "fullName": "GTSErpSystem.Frms.Account.FrmDailyRestrictions",
+    "module": "Account",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmDailyRestrictionsTest",
+    "fullName": "GTSErpSystem.Frms.Account.FrmDailyRestrictionsTest",
+    "module": "Account",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmDefualtAccount",
+    "fullName": "GTSErpSystem.Frms.Account.FrmDefualtAccount",
+    "module": "Account",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Account_DefualtAccount"
+  },
+  {
+    "name": "FrmDefualtCustomer",
+    "fullName": "GTSErpSystem.Frms.Account.FrmDefualtCustomer",
+    "module": "Account",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Account_DefualtCustomer"
+  },
+  {
+    "name": "FrmOpenAccount",
+    "fullName": "GTSErpSystem.Frms.Account.FrmOpenAccount",
+    "module": "Account",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmPayment",
+    "fullName": "GTSErpSystem.Frms.Account.FrmPayment",
+    "module": "Account",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Order_PaymentItem"
+  },
+  {
+    "name": "FrmPaymentBig",
+    "fullName": "GTSErpSystem.Frms.Account.FrmPaymentBig",
+    "module": "Account",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmProjects",
+    "fullName": "GTSErpSystem.Frms.Account.FrmProjects",
+    "module": "Account",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Account_Projects"
+  },
+  {
+    "name": "FrmReceipts",
+    "fullName": "GTSErpSystem.Frms.Account.FrmReceipts",
+    "module": "Account",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Account_Receipts"
+  },
+  {
+    "name": "FrmReceiptsBig",
+    "fullName": "GTSErpSystem.Frms.Account.FrmReceiptsBig",
+    "module": "Account",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmReceiptsScaffolds",
+    "fullName": "GTSErpSystem.Frms.Account.FrmReceiptsScaffolds",
+    "module": "Account",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchAccount",
+    "fullName": "GTSErpSystem.Frms.Account.Search.FrmSearchAccount",
+    "module": "Account",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchAccountPayment",
+    "fullName": "GTSErpSystem.Frms.Account.Search.FrmSearchAccountPayment",
+    "module": "Account",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchAccountReceipts",
+    "fullName": "GTSErpSystem.Frms.Account.Search.FrmSearchAccountReceipts",
+    "module": "Account",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchPayment",
+    "fullName": "GTSErpSystem.Frms.Account.Search.FrmSearchPayment",
+    "module": "Account",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchPaymentBig",
+    "fullName": "GTSErpSystem.Frms.Account.Search.FrmSearchPaymentBig",
+    "module": "Account",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchReceipts",
+    "fullName": "GTSErpSystem.Frms.Account.Search.FrmSearchReceipts",
+    "module": "Account",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchReceiptsBig",
+    "fullName": "GTSErpSystem.Frms.Account.Search.FrmSearchReceiptsBig",
+    "module": "Account",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchTran",
+    "fullName": "GTSErpSystem.Frms.Account.Search.FrmSearchTran",
+    "module": "Account",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchTranTemp",
+    "fullName": "GTSErpSystem.Frms.Account.Search.FrmSearchTranTemp",
+    "module": "Account",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmCloseYear",
+    "fullName": "GTSErpSystem.Frms.CloseYears.FrmCloseYear",
+    "module": "CloseYears",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "FrmCheckActivationCloseYear"
+  },
+  {
+    "name": "ContractTerms",
+    "fullName": "GTSErpSystem.Frms.Contract.ContractTerms",
+    "module": "Contract",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmBounce",
+    "fullName": "GTSErpSystem.Frms.Contract.FrmBounce",
+    "module": "Contract",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Contract_Bounce"
+  },
+  {
+    "name": "FrmContract",
+    "fullName": "GTSErpSystem.Frms.Contract.FrmContract",
+    "module": "Contract",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Contract_Bounce"
+  },
+  {
+    "name": "FrmContractScaffolds",
+    "fullName": "GTSErpSystem.Frms.Contract.FrmContractScaffolds",
+    "module": "Contract",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmEJAR",
+    "fullName": "GTSErpSystem.Frms.Contract.FrmEJAR",
+    "module": "Contract",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Contract_EJAR"
+  },
+  {
+    "name": "FrmEntryPermission",
+    "fullName": "GTSErpSystem.Frms.Contract.FrmEntryPermission",
+    "module": "Contract",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Scaffold_EntryPermission"
+  },
+  {
+    "name": "FrmExitPermission",
+    "fullName": "GTSErpSystem.Frms.Contract.FrmExitPermission",
+    "module": "Contract",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Scaffold_ExitPermission"
+  },
+  {
+    "name": "FrmGuarantee",
+    "fullName": "GTSErpSystem.Frms.Contract.FrmGuarantee",
+    "module": "Contract",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Contract_Guarantee"
+  },
+  {
+    "name": "FrmMinutesRemoval",
+    "fullName": "GTSErpSystem.Frms.Contract.FrmMinutesRemoval",
+    "module": "Contract",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmMinutesStarted",
+    "fullName": "GTSErpSystem.Frms.Contract.FrmMinutesStarted",
+    "module": "Contract",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Scaffolds_MinutesStarted"
+  },
+  {
+    "name": "FrmPriceOfferScaffolds",
+    "fullName": "GTSErpSystem.Frms.Contract.FrmPriceOfferScaffolds",
+    "module": "Contract",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmViewFiles",
+    "fullName": "GTSErpSystem.Frms.Contract.FrmViewFiles",
+    "module": "Contract",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmAllContract",
+    "fullName": "GTSErpSystem.Frms.Contract.Report.FrmAllContract",
+    "module": "Contract",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmAllContractActiveDisActive",
+    "fullName": "GTSErpSystem.Frms.Contract.Report.FrmAllContractActiveDisActive",
+    "module": "Contract",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmAllContractByCostomer",
+    "fullName": "GTSErpSystem.Frms.Contract.Report.FrmAllContractByCostomer",
+    "module": "Contract",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmAllGuarantee",
+    "fullName": "GTSErpSystem.Frms.Contract.Report.FrmAllGuarantee",
+    "module": "Contract",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmBounce",
+    "fullName": "GTSErpSystem.Frms.Contract.Report.FrmBounce",
+    "module": "Contract",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Contract_Bounce"
+  },
+  {
+    "name": "FrmSearchContract",
+    "fullName": "GTSErpSystem.Frms.Contract.Search.FrmSearchContract",
+    "module": "Contract",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchEJAR",
+    "fullName": "GTSErpSystem.Frms.Contract.Search.FrmSearchEJAR",
+    "module": "Contract",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchEntryPermission",
+    "fullName": "GTSErpSystem.Frms.Contract.Search.FrmSearchEntryPermission",
+    "module": "Contract",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchExitPermission",
+    "fullName": "GTSErpSystem.Frms.Contract.Search.FrmSearchExitPermission",
+    "module": "Contract",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchGuarantee",
+    "fullName": "GTSErpSystem.Frms.Contract.Search.FrmSearchGuarantee",
+    "module": "Contract",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchMinutesEnd",
+    "fullName": "GTSErpSystem.Frms.Contract.Search.FrmSearchMinutesEnd",
+    "module": "Contract",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchMinutesStarted",
+    "fullName": "GTSErpSystem.Frms.Contract.Search.FrmSearchMinutesStarted",
+    "module": "Contract",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchPriceOfferScaffold",
+    "fullName": "GTSErpSystem.Frms.Contract.Search.FrmSearchPriceOfferScaffold",
+    "module": "Contract",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchScaffoldsContract",
+    "fullName": "GTSErpSystem.Frms.Contract.Search.FrmSearchScaffoldsContract",
+    "module": "Contract",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchScaffoldsContractNotStart",
+    "fullName": "GTSErpSystem.Frms.Contract.Search.FrmSearchScaffoldsContractNotStart",
+    "module": "Contract",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmBranches",
+    "fullName": "GTSErpSystem.Frms.Cust_Sup.FrmBranches",
+    "module": "Cust_Sup",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmCustomer",
+    "fullName": "GTSErpSystem.Frms.Cust_Sup.FrmCustomer",
+    "module": "Cust_Sup",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Account_DefualtCustomer"
+  },
+  {
+    "name": "FrmPlace",
+    "fullName": "GTSErpSystem.Frms.Cust_Sup.FrmPlace",
+    "module": "Cust_Sup",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Account_Place"
+  },
+  {
+    "name": "FrmReservation",
+    "fullName": "GTSErpSystem.Frms.Cust_Sup.FrmReservation",
+    "module": "Cust_Sup",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Order_Reservation"
+  },
+  {
+    "name": "FrmSalesMan",
+    "fullName": "GTSErpSystem.Frms.Cust_Sup.FrmSalesMan",
+    "module": "Cust_Sup",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Account_SalesMan"
+  },
+  {
+    "name": "FrmStores",
+    "fullName": "GTSErpSystem.Frms.Cust_Sup.FrmStores",
+    "module": "Cust_Sup",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Account_Stores"
+  },
+  {
+    "name": "FrmSuppliers",
+    "fullName": "GTSErpSystem.Frms.Cust_Sup.FrmSuppliers",
+    "module": "Cust_Sup",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmTailor",
+    "fullName": "GTSErpSystem.Frms.Cust_Sup.FrmTailor",
+    "module": "Cust_Sup",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Account_CustTailor"
+  },
+  {
+    "name": "FrmSearchBranch",
+    "fullName": "GTSErpSystem.Frms.Cust_Sup.Search.FrmSearchBranch",
+    "module": "Cust_Sup",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchCustomer",
+    "fullName": "GTSErpSystem.Frms.Cust_Sup.Search.FrmSearchCustomer",
+    "module": "Cust_Sup",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchCustomerAll",
+    "fullName": "GTSErpSystem.Frms.Cust_Sup.Search.FrmSearchCustomerAll",
+    "module": "Cust_Sup",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchReservation",
+    "fullName": "GTSErpSystem.Frms.Cust_Sup.Search.FrmSearchReservation",
+    "module": "Cust_Sup",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchSuppliers",
+    "fullName": "GTSErpSystem.Frms.Cust_Sup.Search.FrmSearchSuppliers",
+    "module": "Cust_Sup",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmAtviaionCSID",
+    "fullName": "GTSErpSystem.Frms.ElctorncInvoic.FrmAtviaionCSID",
+    "module": "ElctorncInvoic",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmCheckActivationElctroncInv",
+    "fullName": "GTSErpSystem.Frms.ElctorncInvoic.FrmCheckActivationElctroncInv",
+    "module": "ElctorncInvoic",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmGenetareCSID",
+    "fullName": "GTSErpSystem.Frms.ElctorncInvoic.FrmGenetareCSID",
+    "module": "ElctorncInvoic",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmGetDataFromCRM",
+    "fullName": "GTSErpSystem.Frms.ElctorncInvoic.FrmGetDataFromCRM",
+    "module": "ElctorncInvoic",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmLoginCrm",
+    "fullName": "GTSErpSystem.Frms.ElctorncInvoic.FrmLoginCrm",
+    "module": "ElctorncInvoic",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmPassWordElctronc",
+    "fullName": "GTSErpSystem.Frms.ElctorncInvoic.FrmPassWordElctronc",
+    "module": "ElctorncInvoic",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmZatcaIntgration",
+    "fullName": "GTSErpSystem.Frms.ElctorncInvoic.FrmZatcaIntgration",
+    "module": "ElctorncInvoic",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "SentInvoiceToZakat",
+    "fullName": "GTSErpSystem.Frms.ElctorncInvoic.SentInvoiceToZakat",
+    "module": "ElctorncInvoic",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmRepair",
+    "fullName": "GTSErpSystem.Frms.FrmOthers.FrmRepair",
+    "module": "FrmOthers",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Repairs_Groups"
+  },
+  {
+    "name": "FrmCalculator",
+    "fullName": "GTSErpSystem.Frms.FrmRestaurant.FrmCalculator",
+    "module": "FrmRestaurant",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmCashirRestaurant",
+    "fullName": "GTSErpSystem.Frms.FrmRestaurant.FrmCashirRestaurant",
+    "module": "FrmRestaurant",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmDeliveryCollecting",
+    "fullName": "GTSErpSystem.Frms.FrmRestaurant.FrmDeliveryCollecting",
+    "module": "FrmRestaurant",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmEditRoom",
+    "fullName": "GTSErpSystem.Frms.FrmRestaurant.FrmEditRoom",
+    "module": "FrmRestaurant",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmMahlyCollecting",
+    "fullName": "GTSErpSystem.Frms.FrmRestaurant.FrmMahlyCollecting",
+    "module": "FrmRestaurant",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmMoneyDelivery",
+    "fullName": "GTSErpSystem.Frms.FrmRestaurant.FrmMoneyDelivery",
+    "module": "FrmRestaurant",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmMoneyMahly",
+    "fullName": "GTSErpSystem.Frms.FrmRestaurant.FrmMoneyMahly",
+    "module": "FrmRestaurant",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmMoneySafry",
+    "fullName": "GTSErpSystem.Frms.FrmRestaurant.FrmMoneySafry",
+    "module": "FrmRestaurant",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmPrint",
+    "fullName": "GTSErpSystem.Frms.FrmRestaurant.FrmPrint",
+    "module": "FrmRestaurant",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Printer"
+  },
+  {
+    "name": "FrmAdd",
+    "fullName": "GTSErpSystem.Frms.FrmRestaurant.LuckUp.FrmAdd",
+    "module": "FrmRestaurant",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Item_Add"
+  },
+  {
+    "name": "FrmCalcRes",
+    "fullName": "GTSErpSystem.Frms.FrmRestaurant.LuckUp.FrmCalcRes",
+    "module": "FrmRestaurant",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmDelivery",
+    "fullName": "GTSErpSystem.Frms.FrmRestaurant.LuckUp.FrmDelivery",
+    "module": "FrmRestaurant",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Restaurant_Delivery"
+  },
+  {
+    "name": "FrmRoom",
+    "fullName": "GTSErpSystem.Frms.FrmRestaurant.LuckUp.FrmRoom",
+    "module": "FrmRestaurant",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Restaurant_Room"
+  },
+  {
+    "name": "FrmSearchAdds",
+    "fullName": "GTSErpSystem.Frms.FrmRestaurant.LuckUp.FrmSearchAdds",
+    "module": "FrmRestaurant",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmTable",
+    "fullName": "GTSErpSystem.Frms.FrmRestaurant.LuckUp.FrmTable",
+    "module": "FrmRestaurant",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Restaurant_Table"
+  },
+  {
+    "name": "FrmActivation",
+    "fullName": "GTSErpSystem.Frms.FrmsHome.FrmActivation",
+    "module": "FrmsHome",
+    "baseType": "DevExpress.XtraBars.Ribbon.RibbonForm",
+    "entity": "FrmCheckActivationCloseYear"
+  },
+  {
+    "name": "FrmBlue",
+    "fullName": "GTSErpSystem.Frms.FrmsHome.FrmBlue",
+    "module": "FrmsHome",
+    "baseType": "DevExpress.XtraBars.Ribbon.RibbonForm",
+    "entity": null
+  },
+  {
+    "name": "FrmGold",
+    "fullName": "GTSErpSystem.Frms.FrmsHome.FrmGold",
+    "module": "FrmsHome",
+    "baseType": "DevExpress.XtraBars.Ribbon.RibbonForm",
+    "entity": null
+  },
+  {
+    "name": "FrmGoldPlus",
+    "fullName": "GTSErpSystem.Frms.FrmsHome.FrmGoldPlus",
+    "module": "FrmsHome",
+    "baseType": "DevExpress.XtraBars.Ribbon.RibbonForm",
+    "entity": null
+  },
+  {
+    "name": "FrmGoldPlusImportExport",
+    "fullName": "GTSErpSystem.Frms.FrmsHome.FrmGoldPlusImportExport",
+    "module": "FrmsHome",
+    "baseType": "DevExpress.XtraBars.Ribbon.RibbonForm",
+    "entity": null
+  },
+  {
+    "name": "FrmGoldPlusTransportation",
+    "fullName": "GTSErpSystem.Frms.FrmsHome.FrmGoldPlusTransportation",
+    "module": "FrmsHome",
+    "baseType": "DevExpress.XtraBars.Ribbon.RibbonForm",
+    "entity": null
+  },
+  {
+    "name": "FrmLight2",
+    "fullName": "GTSErpSystem.Frms.FrmsHome.FrmLight2",
+    "module": "FrmsHome",
+    "baseType": "DevExpress.XtraBars.Ribbon.RibbonForm",
+    "entity": null
+  },
+  {
+    "name": "FrmPremium",
+    "fullName": "GTSErpSystem.Frms.FrmsHome.FrmPremium",
+    "module": "FrmsHome",
+    "baseType": "DevExpress.XtraBars.Ribbon.RibbonForm",
+    "entity": null
+  },
+  {
+    "name": "FrmReportAll",
+    "fullName": "GTSErpSystem.Frms.FrmsHome.FrmReportAll",
+    "module": "FrmsHome",
+    "baseType": "DevExpress.XtraBars.Ribbon.RibbonForm",
+    "entity": null
+  },
+  {
+    "name": "FrmRestaurant",
+    "fullName": "GTSErpSystem.Frms.FrmsHome.FrmRestaurant",
+    "module": "FrmsHome",
+    "baseType": "DevExpress.XtraBars.Ribbon.RibbonForm",
+    "entity": "Restaurant_Delivery"
+  },
+  {
+    "name": "FrmRestaurantSilver",
+    "fullName": "GTSErpSystem.Frms.FrmsHome.FrmRestaurantSilver",
+    "module": "FrmsHome",
+    "baseType": "DevExpress.XtraBars.Ribbon.RibbonForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSilver",
+    "fullName": "GTSErpSystem.Frms.FrmsHome.FrmSilver",
+    "module": "FrmsHome",
+    "baseType": "DevExpress.XtraBars.Ribbon.RibbonForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSilverPlus",
+    "fullName": "GTSErpSystem.Frms.FrmsHome.FrmSilverPlus",
+    "module": "FrmsHome",
+    "baseType": "DevExpress.XtraBars.Ribbon.RibbonForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSilverPlusWashing",
+    "fullName": "GTSErpSystem.Frms.FrmsHome.FrmSilverPlusWashing",
+    "module": "FrmsHome",
+    "baseType": "DevExpress.XtraBars.Ribbon.RibbonForm",
+    "entity": null
+  },
+  {
+    "name": "FrmTest",
+    "fullName": "GTSErpSystem.Frms.FrmsHome.FrmTest",
+    "module": "FrmsHome",
+    "baseType": "DevExpress.XtraBars.Ribbon.RibbonForm",
+    "entity": null
+  },
+  {
+    "name": "FrmWindow",
+    "fullName": "GTSErpSystem.Frms.FrmsHome.FrmWindow",
+    "module": "FrmsHome",
+    "baseType": "DevExpress.XtraBars.Ribbon.RibbonForm",
+    "entity": null
+  },
+  {
+    "name": "FrmAbout",
+    "fullName": "GTSErpSystem.Frms.FrmsMain.FrmAbout",
+    "module": "FrmsMain",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmAllPrinters",
+    "fullName": "GTSErpSystem.Frms.FrmsMain.FrmAllPrinters",
+    "module": "FrmsMain",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Printer"
+  },
+  {
+    "name": "FrmBackUp",
+    "fullName": "GTSErpSystem.Frms.FrmsMain.FrmBackUp",
+    "module": "FrmsMain",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmChangeDataBase",
+    "fullName": "GTSErpSystem.Frms.FrmsMain.FrmChangeDataBase",
+    "module": "FrmsMain",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmDateCashier",
+    "fullName": "GTSErpSystem.Frms.FrmsMain.FrmDateCashier",
+    "module": "FrmsMain",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmDefualtAccount",
+    "fullName": "GTSErpSystem.Frms.FrmsMain.FrmDefualtAccount",
+    "module": "FrmsMain",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Account_DefualtAccount"
+  },
+  {
+    "name": "FrmDesignerReport",
+    "fullName": "GTSErpSystem.Frms.FrmsMain.FrmDesignerReport",
+    "module": "FrmsMain",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmImportExcel",
+    "fullName": "GTSErpSystem.Frms.FrmsMain.FrmImportExcel",
+    "module": "FrmsMain",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmItemProfit",
+    "fullName": "GTSErpSystem.Frms.FrmsMain.FrmItemProfit",
+    "module": "FrmsMain",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmItemVat",
+    "fullName": "GTSErpSystem.Frms.FrmsMain.FrmItemVat",
+    "module": "FrmsMain",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmLock",
+    "fullName": "GTSErpSystem.Frms.FrmsMain.FrmLock",
+    "module": "FrmsMain",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmPassExcel",
+    "fullName": "GTSErpSystem.Frms.FrmsMain.FrmPassExcel",
+    "module": "FrmsMain",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmPassWord",
+    "fullName": "GTSErpSystem.Frms.FrmsMain.FrmPassWord",
+    "module": "FrmsMain",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmPassWordOrderReturn",
+    "fullName": "GTSErpSystem.Frms.FrmsMain.FrmPassWordOrderReturn",
+    "module": "FrmsMain",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmPassWordVat",
+    "fullName": "GTSErpSystem.Frms.FrmsMain.FrmPassWordVat",
+    "module": "FrmsMain",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmPrinter",
+    "fullName": "GTSErpSystem.Frms.FrmsMain.FrmPrinter",
+    "module": "FrmsMain",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Printer"
+  },
+  {
+    "name": "FrmPrinterCashier",
+    "fullName": "GTSErpSystem.Frms.FrmsMain.FrmPrinterCashier",
+    "module": "FrmsMain",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Printer"
+  },
+  {
+    "name": "FrmReportGetOrder",
+    "fullName": "GTSErpSystem.Frms.FrmsMain.FrmReportGetOrder",
+    "module": "FrmsMain",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSetting",
+    "fullName": "GTSErpSystem.Frms.FrmsMain.FrmSetting",
+    "module": "FrmsMain",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "TblSetting"
+  },
+  {
+    "name": "FrmVAT",
+    "fullName": "GTSErpSystem.Frms.FrmsMain.FrmVAT",
+    "module": "FrmsMain",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "FrmCheckActivationCloseYear"
+  },
+  {
+    "name": "FrmSearchAccount",
+    "fullName": "GTSErpSystem.Frms.FrmsMain.Search.FrmSearchAccount",
+    "module": "FrmsMain",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchAccountForTree",
+    "fullName": "GTSErpSystem.Frms.FrmsMain.Search.FrmSearchAccountForTree",
+    "module": "FrmsMain",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchCostCenter",
+    "fullName": "GTSErpSystem.Frms.FrmsMain.Search.FrmSearchCostCenter",
+    "module": "FrmsMain",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchDefualtAccount",
+    "fullName": "GTSErpSystem.Frms.FrmsMain.Search.FrmSearchDefualtAccount",
+    "module": "FrmsMain",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchProjects",
+    "fullName": "GTSErpSystem.Frms.FrmsMain.Search.FrmSearchProjects",
+    "module": "FrmsMain",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "WaitForm",
+    "fullName": "GTSErpSystem.Frms.FrmsMain.WaitForm",
+    "module": "FrmsMain",
+    "baseType": "System.Windows.Forms.Form",
+    "entity": null
+  },
+  {
+    "name": "WhathAppInfo",
+    "fullName": "GTSErpSystem.Frms.FrmsMain.WhathAppInfo",
+    "module": "FrmsMain",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmBarCodeItem",
+    "fullName": "GTSErpSystem.Frms.Items.FrmBarCodeItem",
+    "module": "Items",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmClass",
+    "fullName": "GTSErpSystem.Frms.Items.FrmClass",
+    "module": "Items",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Item_Class"
+  },
+  {
+    "name": "FrmCompany",
+    "fullName": "GTSErpSystem.Frms.Items.FrmCompany",
+    "module": "Items",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Item_Company"
+  },
+  {
+    "name": "FrmCountry",
+    "fullName": "GTSErpSystem.Frms.Items.FrmCountry",
+    "module": "Items",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Item_Country"
+  },
+  {
+    "name": "FrmDisCode",
+    "fullName": "GTSErpSystem.Frms.Items.FrmDisCode",
+    "module": "Items",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmDoctor",
+    "fullName": "GTSErpSystem.Frms.Items.FrmDoctor",
+    "module": "Items",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Item_Doctor"
+  },
+  {
+    "name": "FrmGroupsRes",
+    "fullName": "GTSErpSystem.Frms.Items.FrmGroupsRes",
+    "module": "Items",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmGuarantee",
+    "fullName": "GTSErpSystem.Frms.Items.FrmGuarantee",
+    "module": "Items",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Contract_Guarantee"
+  },
+  {
+    "name": "FrmImportExcel",
+    "fullName": "GTSErpSystem.Frms.Items.FrmImportExcel",
+    "module": "Items",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmItemReader",
+    "fullName": "GTSErpSystem.Frms.Items.FrmItemReader",
+    "module": "Items",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmItems",
+    "fullName": "GTSErpSystem.Frms.Items.FrmItems",
+    "module": "Items",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Item_Items"
+  },
+  {
+    "name": "FrmOilChange",
+    "fullName": "GTSErpSystem.Frms.Items.FrmOilChange",
+    "module": "Items",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmPrintBarcode",
+    "fullName": "GTSErpSystem.Frms.Items.FrmSearch.FrmPrintBarcode",
+    "module": "Items",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchByBarcode",
+    "fullName": "GTSErpSystem.Frms.Items.FrmSearch.FrmSearchByBarcode",
+    "module": "Items",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchItems1",
+    "fullName": "GTSErpSystem.Frms.Items.FrmSearch.FrmSearchItems1",
+    "module": "Items",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmUnit",
+    "fullName": "GTSErpSystem.Frms.Items.FrmUnit",
+    "module": "Items",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Item_Unit"
+  },
+  {
+    "name": "FrmDalala",
+    "fullName": "GTSErpSystem.Frms.OrderDalala.FrmDalala",
+    "module": "OrderDalala",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "OrderDalala_Dalala"
+  },
+  {
+    "name": "FrmSearchDalala",
+    "fullName": "GTSErpSystem.Frms.OrderDalala.FrmSearch.FrmSearchDalala",
+    "module": "OrderDalala",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchSending",
+    "fullName": "GTSErpSystem.Frms.OrderDalala.FrmSearch.FrmSearchSending",
+    "module": "OrderDalala",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSending",
+    "fullName": "GTSErpSystem.Frms.OrderDalala.FrmSending",
+    "module": "OrderDalala",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "OrderDalala_Sending"
+  },
+  {
+    "name": "FrmReportOrderDalala_Dalala",
+    "fullName": "GTSErpSystem.Frms.OrderDalala.Report.FrmReportOrderDalala_Dalala",
+    "module": "OrderDalala",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "OrderDalala_Dalala"
+  },
+  {
+    "name": "FrmReportOrderDalala_Sending",
+    "fullName": "GTSErpSystem.Frms.OrderDalala.Report.FrmReportOrderDalala_Sending",
+    "module": "OrderDalala",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "OrderDalala_Sending"
+  },
+  {
+    "name": "FrmManufacturing",
+    "fullName": "GTSErpSystem.Frms.OrderManufacturing.FrmManufacturing",
+    "module": "OrderManufacturing",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Order_Manufacturing"
+  },
+  {
+    "name": "FrmManufacturingOrder",
+    "fullName": "GTSErpSystem.Frms.OrderManufacturing.FrmManufacturingOrder",
+    "module": "OrderManufacturing",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Order_ManufacturingOrder"
+  },
+  {
+    "name": "FrmSearchManufacturing",
+    "fullName": "GTSErpSystem.Frms.OrderManufacturing.FrmSearch.FrmSearchManufacturing",
+    "module": "OrderManufacturing",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchManufacturingOrder",
+    "fullName": "GTSErpSystem.Frms.OrderManufacturing.FrmSearch.FrmSearchManufacturingOrder",
+    "module": "OrderManufacturing",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmItemRentDeatils",
+    "fullName": "GTSErpSystem.Frms.OrderRent.FrmItemRentDeatils",
+    "module": "OrderRent",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmOrderReturnRental",
+    "fullName": "GTSErpSystem.Frms.OrderRent.FrmOrderReturnRental",
+    "module": "OrderRent",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmRecipt",
+    "fullName": "GTSErpSystem.Frms.OrderRent.FrmRecipt",
+    "module": "OrderRent",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "OrderRent_Recipt"
+  },
+  {
+    "name": "FrmRecipt2",
+    "fullName": "GTSErpSystem.Frms.OrderRent.FrmRecipt2",
+    "module": "OrderRent",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmRecipt3",
+    "fullName": "GTSErpSystem.Frms.OrderRent.FrmRecipt3",
+    "module": "OrderRent",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "OrderRent_Recipt3"
+  },
+  {
+    "name": "FrmRent",
+    "fullName": "GTSErpSystem.Frms.OrderRent.FrmRent",
+    "module": "OrderRent",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "OrderRent_Recipt"
+  },
+  {
+    "name": "FrmRentalExpenses",
+    "fullName": "GTSErpSystem.Frms.OrderRent.FrmRentalExpenses",
+    "module": "OrderRent",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "RentalExpens"
+  },
+  {
+    "name": "FrmRentalInvoice",
+    "fullName": "GTSErpSystem.Frms.OrderRent.FrmRentalInvoice",
+    "module": "OrderRent",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "OrdersReturn_RentalInvoice"
+  },
+  {
+    "name": "OrdersPriceShowRental",
+    "fullName": "GTSErpSystem.Frms.OrderRent.OrdersPriceShowRental",
+    "module": "OrderRent",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmExpAndRevenuesReports",
+    "fullName": "GTSErpSystem.Frms.OrderRent.RentReports.FrmExpAndRevenuesReports",
+    "module": "OrderRent",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmExpReports",
+    "fullName": "GTSErpSystem.Frms.OrderRent.RentReports.FrmExpReports",
+    "module": "OrderRent",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmRecpitReports",
+    "fullName": "GTSErpSystem.Frms.OrderRent.RentReports.FrmRecpitReports",
+    "module": "OrderRent",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmRentReports",
+    "fullName": "GTSErpSystem.Frms.OrderRent.RentReports.FrmRentReports",
+    "module": "OrderRent",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmRentReports2",
+    "fullName": "GTSErpSystem.Frms.OrderRent.RentReports.FrmRentReports2",
+    "module": "OrderRent",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchPriceShowRent",
+    "fullName": "GTSErpSystem.Frms.OrderRent.Search.FrmSearchPriceShowRent",
+    "module": "OrderRent",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchRecipt",
+    "fullName": "GTSErpSystem.Frms.OrderRent.Search.FrmSearchRecipt",
+    "module": "OrderRent",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchRent",
+    "fullName": "GTSErpSystem.Frms.OrderRent.Search.FrmSearchRent",
+    "module": "OrderRent",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchRentalExpenses",
+    "fullName": "GTSErpSystem.Frms.OrderRent.Search.FrmSearchRentalExpenses",
+    "module": "OrderRent",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "RentalExpens"
+  },
+  {
+    "name": "FrmSearchRentalInvoice",
+    "fullName": "GTSErpSystem.Frms.OrderRent.Search.FrmSearchRentalInvoice",
+    "module": "OrderRent",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmCashierQuantity",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmCachMoney.FrmCashierQuantity",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmCashierSetting",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmCachMoney.FrmCashierSetting",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmMoney",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmCachMoney.FrmMoney",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmMoneyAjil",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmCachMoney.FrmMoneyAjil",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmMoneyCashier",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmCachMoney.FrmMoneyCashier",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmCars",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmCars",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmCashir",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmCashir",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmCashirPharm",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmCashirPharm",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmCashirWashing",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmCashirWashing",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmCashirWithOutGroup",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmCashirWithOutGroup",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmCheckOut",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmCheckOut",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Order_CheckoutOrders"
+  },
+  {
+    "name": "FrmInventorySettlementMinus",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmInventorySettlementMinus",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Order_InventorySettlementMinus"
+  },
+  {
+    "name": "FrmInvoicType",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmInvoicType",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmOrderInCashier",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmLuckUpOrders.FrmOrderInCashier",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmPassWordSupervisor",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmLuckUpOrders.FrmPassWordSupervisor",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmReturnOrderInCashier",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmLuckUpOrders.FrmReturnOrderInCashier",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmCloseDay",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmOpenDay.FrmCloseDay",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmOpenDay",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmOpenDay.FrmOpenDay",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmOpenQuantity",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmOpenQuantity",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Order_OpenQuantity"
+  },
+  {
+    "name": "FrmOrderReturn",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmOrderReturn",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Order_OrderReturn"
+  },
+  {
+    "name": "FrmOrders",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmOrders",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Order_CheckoutOrders"
+  },
+  {
+    "name": "FrmOrdersDraft",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmOrdersDraft",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Order_OrdersDraft"
+  },
+  {
+    "name": "FrmOrdersReturnNoPurchCode",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmOrdersReturnNoPurchCode",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmOrdersWedding",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmOrdersWedding",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmPaymentItem",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmPaymentItem",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Order_PaymentItem"
+  },
+  {
+    "name": "FrmPriceOffer",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmPriceOffer",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Order_PriceOffer"
+  },
+  {
+    "name": "FrmPurchaseOrder",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmPurchaseOrder",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmPurchases",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmPurchases",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Order_Purchases"
+  },
+  {
+    "name": "FrmPurchasesReturn",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmPurchasesReturn",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Order_PurchasesReturn"
+  },
+  {
+    "name": "FrmPurchasesReturnNoPurchCode",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmPurchasesReturnNoPurchCode",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmRecpItem",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmRecpItem",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmReplace",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmReplace",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmHalls",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmReservations.FrmHalls",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Hall"
+  },
+  {
+    "name": "FrmReportReser",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmReservations.FrmReportReser",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmReservations",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmReservations.FrmReservations",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Order_Reservations"
+  },
+  {
+    "name": "FrmSearchCheckout",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmSearchOrder.FrmSearchCheckout",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchCheckoutOrders",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmSearchOrder.FrmSearchCheckoutOrders",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchCustomer",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmSearchOrder.FrmSearchCustomer",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchInventorySettlementMinus",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmSearchOrder.FrmSearchInventorySettlementMinus",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchOpenQuantity",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmSearchOrder.FrmSearchOpenQuantity",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchOrderReturn",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmSearchOrder.FrmSearchOrderReturn",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchOrderReturnNoPurchCode",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmSearchOrder.FrmSearchOrderReturnNoPurchCode",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchOrders",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmSearchOrder.FrmSearchOrders",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchOrdersDraft",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmSearchOrder.FrmSearchOrdersDraft",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchPaymentItems",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmSearchOrder.FrmSearchPaymentItems",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchPriceOffer",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmSearchOrder.FrmSearchPriceOffer",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchPurchases",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmSearchOrder.FrmSearchPurchases",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchPurchasesOrder",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmSearchOrder.FrmSearchPurchasesOrder",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchPurchReturn",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmSearchOrder.FrmSearchPurchReturn",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchPurchReturnNoPurchCode",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmSearchOrder.FrmSearchPurchReturnNoPurchCode",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchRecItem",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmSearchOrder.FrmSearchRecItem",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchSuppliers",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmSearchOrder.FrmSearchSuppliers",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchTransfer",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmSearchOrder.FrmSearchTransfer",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchTransfer2",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmSearchOrder.FrmSearchTransfer2",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchTransferAllBranch",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmSearchOrder.FrmSearchTransferAllBranch",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchTransferFromBranch",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmSearchOrder.FrmSearchTransferFromBranch",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchTransferStore",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmSearchOrder.FrmSearchTransferStore",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchTransferToBranch",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmSearchOrder.FrmSearchTransferToBranch",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchUnit",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmSearchOrder.FrmSearchUnit",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchWedding",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmSearchOrder.FrmSearchWedding",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmsOption",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmSearchOrder.FrmsOption",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmStoresTransfer",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmStoresTransfer",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmTransferFromBranch",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmTransferFromBranch",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Order_TransferFromBranch"
+  },
+  {
+    "name": "FrmTransferToBranch",
+    "fullName": "GTSErpSystem.Frms.Orders.FrmTransferToBranch",
+    "module": "Orders",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Order_TransferToBranch"
+  },
+  {
+    "name": "FrmTransferBranchMaster",
+    "fullName": "GTSErpSystem.Frms.OrdersTransfer.FrmTransferBranchMaster",
+    "module": "OrdersTransfer",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmTransferMasterToBranch",
+    "fullName": "GTSErpSystem.Frms.OrdersTransfer.FrmTransferMasterToBranch",
+    "module": "OrdersTransfer",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchTransferBranchMaster",
+    "fullName": "GTSErpSystem.Frms.OrdersTransfer.Search.FrmSearchTransferBranchMaster",
+    "module": "OrdersTransfer",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmAllowances",
+    "fullName": "GTSErpSystem.Frms.Payroll.FrmAllowances",
+    "module": "Payroll",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Emp_Allowances"
+  },
+  {
+    "name": "FrmEmployee",
+    "fullName": "GTSErpSystem.Frms.Payroll.FrmEmployee",
+    "module": "Payroll",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Emp_Employee"
+  },
+  {
+    "name": "FrmEntrusted",
+    "fullName": "GTSErpSystem.Frms.Payroll.FrmEntrusted",
+    "module": "Payroll",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Emp_Entrusted"
+  },
+  {
+    "name": "FrmEntrustedEmployee",
+    "fullName": "GTSErpSystem.Frms.Payroll.FrmEntrustedEmployee",
+    "module": "Payroll",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Emp_EntrustedEmployeeDetails"
+  },
+  {
+    "name": "FrmPayroll",
+    "fullName": "GTSErpSystem.Frms.Payroll.FrmPayroll",
+    "module": "Payroll",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Emp_Payroll"
+  },
+  {
+    "name": "FrmPayrollTemp",
+    "fullName": "GTSErpSystem.Frms.Payroll.FrmPayrollTemp",
+    "module": "Payroll",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSelectEmp",
+    "fullName": "GTSErpSystem.Frms.Payroll.FrmSelectEmp",
+    "module": "Payroll",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmAccountPayroll",
+    "fullName": "GTSErpSystem.Frms.Payroll.Search.FrmAccountPayroll",
+    "module": "Payroll",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchPayroll",
+    "fullName": "GTSErpSystem.Frms.Payroll.Search.FrmSearchPayroll",
+    "module": "Payroll",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchPayrollTemp",
+    "fullName": "GTSErpSystem.Frms.Payroll.Search.FrmSearchPayrollTemp",
+    "module": "Payroll",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "InfoAllowances",
+    "fullName": "GTSErpSystem.Frms.Payroll.Search.InfoAllowances",
+    "module": "Payroll",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmDamages",
+    "fullName": "GTSErpSystem.Frms.Repairs.FrmDamages",
+    "module": "Repairs",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmReforms",
+    "fullName": "GTSErpSystem.Frms.Repairs.FrmReforms",
+    "module": "Repairs",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmRepairs",
+    "fullName": "GTSErpSystem.Frms.Repairs.FrmRepairs",
+    "module": "Repairs",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Repairs_Groups"
+  },
+  {
+    "name": "FrmSearchRepairs",
+    "fullName": "GTSErpSystem.Frms.Repairs.FrmSearchRepairs",
+    "module": "Repairs",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmCostCenterByFather",
+    "fullName": "GTSErpSystem.Frms.Reports.Account.FrmCostCenterByFather",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmDebtReconstruction",
+    "fullName": "GTSErpSystem.Frms.Reports.Account.FrmDebtReconstruction",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmRPCostCenter",
+    "fullName": "GTSErpSystem.Frms.Reports.Account.FrmRPCostCenter",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmRPLeadger",
+    "fullName": "GTSErpSystem.Frms.Reports.Account.FrmRPLeadger",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmRPLeadgerSupp",
+    "fullName": "GTSErpSystem.Frms.Reports.Account.FrmRPLeadgerSupp",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmRPMizan",
+    "fullName": "GTSErpSystem.Frms.Reports.Account.FrmRPMizan",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmRPMizanCustSupp",
+    "fullName": "GTSErpSystem.Frms.Reports.Account.FrmRPMizanCustSupp",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmRPMizanGroups",
+    "fullName": "GTSErpSystem.Frms.Reports.Account.FrmRPMizanGroups",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmRPMizaniyah",
+    "fullName": "GTSErpSystem.Frms.Reports.Account.FrmRPMizaniyah",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmRPMizanTotal",
+    "fullName": "GTSErpSystem.Frms.Reports.Account.FrmRPMizanTotal",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmRPProfitAndLossAccount",
+    "fullName": "GTSErpSystem.Frms.Reports.Account.FrmRPProfitAndLossAccount",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmRPProject",
+    "fullName": "GTSErpSystem.Frms.Reports.Account.FrmRPProject",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmRPTranTeacher",
+    "fullName": "GTSErpSystem.Frms.Reports.Account.FrmRPTranTeacher",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmMovementsDailyReportAllBran",
+    "fullName": "GTSErpSystem.Frms.Reports.AllBranch.FrmMovementsDailyReportAllBran",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmMovementsDailyReportAllBran2",
+    "fullName": "GTSErpSystem.Frms.Reports.AllBranch.FrmMovementsDailyReportAllBran2",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmRPMizaniyahAllBran",
+    "fullName": "GTSErpSystem.Frms.Reports.AllBranch.FrmRPMizaniyahAllBran",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Hall"
+  },
+  {
+    "name": "FrmRPProfitAndLossAccountAllBran",
+    "fullName": "GTSErpSystem.Frms.Reports.AllBranch.FrmRPProfitAndLossAccountAllBran",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmNetOrders",
+    "fullName": "GTSErpSystem.Frms.Reports.Gold.FrmNetOrders",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmNetPurches",
+    "fullName": "GTSErpSystem.Frms.Reports.Gold.FrmNetPurches",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmNetPurchOrders",
+    "fullName": "GTSErpSystem.Frms.Reports.Gold.FrmNetPurchOrders",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmOrders",
+    "fullName": "GTSErpSystem.Frms.Reports.Gold.FrmOrders",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Order_CheckoutOrders"
+  },
+  {
+    "name": "FrmOrdersNetPurchOnly",
+    "fullName": "GTSErpSystem.Frms.Reports.Gold.FrmOrdersNetPurchOnly",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmOrdersReturn",
+    "fullName": "GTSErpSystem.Frms.Reports.Gold.FrmOrdersReturn",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "OrdersReturn_RentalInvoice"
+  },
+  {
+    "name": "FrmPurches",
+    "fullName": "GTSErpSystem.Frms.Reports.Gold.FrmPurches",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmPurchesReturn",
+    "fullName": "GTSErpSystem.Frms.Reports.Gold.FrmPurchesReturn",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmAllOrders",
+    "fullName": "GTSErpSystem.Frms.Reports.Orders.FrmAllOrders",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmAllOrdersBounce",
+    "fullName": "GTSErpSystem.Frms.Reports.Orders.FrmAllOrdersBounce",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmAllOrdersBounceDetails",
+    "fullName": "GTSErpSystem.Frms.Reports.Orders.FrmAllOrdersBounceDetails",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmAllOrdersCashierSafryMahly",
+    "fullName": "GTSErpSystem.Frms.Reports.Orders.FrmAllOrdersCashierSafryMahly",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmAllOrdersCheckOut",
+    "fullName": "GTSErpSystem.Frms.Reports.Orders.FrmAllOrdersCheckOut",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmAllOrdersDetails",
+    "fullName": "GTSErpSystem.Frms.Reports.Orders.FrmAllOrdersDetails",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmAllOrdersDetailsByGroup",
+    "fullName": "GTSErpSystem.Frms.Reports.Orders.FrmAllOrdersDetailsByGroup",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmAllOrdersDetailsByProperties",
+    "fullName": "GTSErpSystem.Frms.Reports.Orders.FrmAllOrdersDetailsByProperties",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmAllOrdersHold",
+    "fullName": "GTSErpSystem.Frms.Reports.Orders.FrmAllOrdersHold",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmAllOrdersRestaurant",
+    "fullName": "GTSErpSystem.Frms.Reports.Orders.FrmAllOrdersRestaurant",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmAllOrdersReturnDetails",
+    "fullName": "GTSErpSystem.Frms.Reports.Orders.FrmAllOrdersReturnDetails",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmAllOrederReturn",
+    "fullName": "GTSErpSystem.Frms.Reports.Orders.FrmAllOrederReturn",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmAllQuntityUsedCust",
+    "fullName": "GTSErpSystem.Frms.Reports.Orders.FrmAllQuntityUsedCust",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmContractItem",
+    "fullName": "GTSErpSystem.Frms.Reports.Orders.FrmContractItem",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmContractState",
+    "fullName": "GTSErpSystem.Frms.Reports.Orders.FrmContractState",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSalesEmployee",
+    "fullName": "GTSErpSystem.Frms.Reports.Orders.FrmSalesEmployee",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmStockItem",
+    "fullName": "GTSErpSystem.Frms.Reports.Orders.FrmStockItem",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmAllOrdersProfit",
+    "fullName": "GTSErpSystem.Frms.Reports.Profit.FrmAllOrdersProfit",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmAllOrdersProfitByGroup",
+    "fullName": "GTSErpSystem.Frms.Reports.Profit.FrmAllOrdersProfitByGroup",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmAllOrdersProfitByItems",
+    "fullName": "GTSErpSystem.Frms.Reports.Profit.FrmAllOrdersProfitByItems",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmAllOrdersProfitByItems_ItemOnly",
+    "fullName": "GTSErpSystem.Frms.Reports.Profit.FrmAllOrdersProfitByItems_ItemOnly",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmAllOrdersProfitCashierSafryMahly",
+    "fullName": "GTSErpSystem.Frms.Reports.Profit.FrmAllOrdersProfitCashierSafryMahly",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmCloseDayByUser",
+    "fullName": "GTSErpSystem.Frms.Reports.Public.FrmCloseDayByUser",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmMovementsDailyReport",
+    "fullName": "GTSErpSystem.Frms.Reports.Public.FrmMovementsDailyReport",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmOrderDetailsByDate",
+    "fullName": "GTSErpSystem.Frms.Reports.Public.FrmOrderDetailsByDate",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmRPMovementsDailyReport",
+    "fullName": "GTSErpSystem.Frms.Reports.Public.FrmRPMovementsDailyReport",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmRPOrderDaily",
+    "fullName": "GTSErpSystem.Frms.Reports.Public.FrmRPOrderDaily",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmRpSalesPurchesForSupp",
+    "fullName": "GTSErpSystem.Frms.Reports.Public.FrmRpSalesPurchesForSupp",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmTobaccoTaxReport",
+    "fullName": "GTSErpSystem.Frms.Reports.Public.FrmTobaccoTaxReport",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmVatReport",
+    "fullName": "GTSErpSystem.Frms.Reports.Public.FrmVatReport",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmAllPurches",
+    "fullName": "GTSErpSystem.Frms.Reports.Purches.FrmAllPurches",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmAllPurchesDetails",
+    "fullName": "GTSErpSystem.Frms.Reports.Purches.FrmAllPurchesDetails",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmAllPurchesReturn",
+    "fullName": "GTSErpSystem.Frms.Reports.Purches.FrmAllPurchesReturn",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmAllPurchesReturnDetails",
+    "fullName": "GTSErpSystem.Frms.Reports.Purches.FrmAllPurchesReturnDetails",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmAllOrders",
+    "fullName": "GTSErpSystem.Frms.Reports.SalesMan.FrmAllOrders",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmAllOrdersDetails",
+    "fullName": "GTSErpSystem.Frms.Reports.SalesMan.FrmAllOrdersDetails",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmAllOrdersProfit",
+    "fullName": "GTSErpSystem.Frms.Reports.SalesMan.FrmAllOrdersProfit",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmAllOrdersProfitByGroupBy",
+    "fullName": "GTSErpSystem.Frms.Reports.SalesMan.FrmAllOrdersProfitByGroupBy",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmAllOrdersProfitByItems_ItemOnly",
+    "fullName": "GTSErpSystem.Frms.Reports.SalesMan.FrmAllOrdersProfitByItems_ItemOnly",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmAllOrdersReturnDetails",
+    "fullName": "GTSErpSystem.Frms.Reports.SalesMan.FrmAllOrdersReturnDetails",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmAllOrederReturn",
+    "fullName": "GTSErpSystem.Frms.Reports.SalesMan.FrmAllOrederReturn",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmNetProfitSalesMan",
+    "fullName": "GTSErpSystem.Frms.Reports.SalesMan.FrmNetProfitSalesMan",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmRTransferFromBranch",
+    "fullName": "GTSErpSystem.Frms.Reports.Stores.Branches.FrmRTransferFromBranch",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmRTransferToBranch",
+    "fullName": "GTSErpSystem.Frms.Reports.Stores.Branches.FrmRTransferToBranch",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmRPItemLimit",
+    "fullName": "GTSErpSystem.Frms.Reports.Stores.FrmRPItemLimit",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmRPMovementAllItemActive",
+    "fullName": "GTSErpSystem.Frms.Reports.Stores.FrmRPMovementAllItemActive",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmRPMovementItem",
+    "fullName": "GTSErpSystem.Frms.Reports.Stores.FrmRPMovementItem",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmRPMovementItemActive",
+    "fullName": "GTSErpSystem.Frms.Reports.Stores.FrmRPMovementItemActive",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmRPStoresGard",
+    "fullName": "GTSErpSystem.Frms.Reports.Stores.FrmRPStoresGard",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmRPStoresGardbyProperties",
+    "fullName": "GTSErpSystem.Frms.Reports.Stores.FrmRPStoresGardbyProperties",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmRPTasferByGroup",
+    "fullName": "GTSErpSystem.Frms.Reports.Stores.FrmRPTasferByGroup",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmRPTotalAvergForSore_ByGroupProperties",
+    "fullName": "GTSErpSystem.Frms.Reports.Stores.FrmRPTotalAvergForSore_ByGroupProperties",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmStoreGardCat",
+    "fullName": "GTSErpSystem.Frms.Reports.Stores.FrmStoreGardCat",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmStoreGardCatSearch",
+    "fullName": "GTSErpSystem.Frms.Reports.Stores.FrmStoreGardCatSearch",
+    "module": "Reports",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmEditUser",
+    "fullName": "GTSErpSystem.Frms.Security.FrmEditUser",
+    "module": "Security",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmGroups",
+    "fullName": "GTSErpSystem.Frms.Security.FrmGroups",
+    "module": "Security",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Item_Groups"
+  },
+  {
+    "name": "FrmPassword",
+    "fullName": "GTSErpSystem.Frms.Security.FrmPassword",
+    "module": "Security",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSecurityGroup",
+    "fullName": "GTSErpSystem.Frms.Security.FrmSecurityGroup",
+    "module": "Security",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmUsers",
+    "fullName": "GTSErpSystem.Frms.Security.FrmUsers",
+    "module": "Security",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmDrivers",
+    "fullName": "GTSErpSystem.Frms.Transportation.FrmDrivers",
+    "module": "Transportation",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmReceive",
+    "fullName": "GTSErpSystem.Frms.Transportation.FrmReceive",
+    "module": "Transportation",
+    "baseType": "System.Windows.Forms.Form",
+    "entity": "Car_Receive"
+  },
+  {
+    "name": "FrmResend",
+    "fullName": "GTSErpSystem.Frms.Transportation.FrmResend",
+    "module": "Transportation",
+    "baseType": "System.Windows.Forms.Form",
+    "entity": null
+  },
+  {
+    "name": "FrmRPDeportation",
+    "fullName": "GTSErpSystem.Frms.Transportation.FrmRPDeportation",
+    "module": "Transportation",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmRPLeadgerCar",
+    "fullName": "GTSErpSystem.Frms.Transportation.FrmRPLeadgerCar",
+    "module": "Transportation",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmResend",
+    "fullName": "GTSErpSystem.Frms.Transportation.SearchTransportation.FrmResend",
+    "module": "Transportation",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchReceive",
+    "fullName": "GTSErpSystem.Frms.Transportation.SearchTransportation.FrmSearchReceive",
+    "module": "Transportation",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmLoginVirg",
+    "fullName": "GTSErpSystem.Frms.Virgins.FrmLoginVirg",
+    "module": "Virgins",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearch",
+    "fullName": "GTSErpSystem.Frms.Virgins.FrmSearch",
+    "module": "Virgins",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmSearchStatuse",
+    "fullName": "GTSErpSystem.Frms.Virgins.FrmSearchStatuse",
+    "module": "Virgins",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  },
+  {
+    "name": "FrmVirgin",
+    "fullName": "GTSErpSystem.Frms.Virgins.FrmVirgin",
+    "module": "Virgins",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "Virg_Virgins"
+  },
+  {
+    "name": "FrmSqlConnection",
+    "fullName": "GTSErpSystem.FrmSqlConnection",
+    "module": "Core",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": "FrmSqlConnection"
+  },
+  {
+    "name": "TestXml",
+    "fullName": "GTSErpSystem.Helper.TestXml",
+    "module": "TestXml",
+    "baseType": "System.Windows.Forms.Form",
+    "entity": null
+  },
+  {
+    "name": "FrmReportRent",
+    "fullName": "GTSErpSystem.OrderRent.FrmReportRent",
+    "module": "FrmReportRent",
+    "baseType": "DevExpress.XtraEditors.XtraForm",
+    "entity": null
+  }
+]

@@ -1,0 +1,30 @@
+using System;
+
+namespace GTSErpSystem.Models;
+
+public class OrderRent_RecpitDetails3
+{
+    public int ID { get; set; }
+    public decimal? AmountDisc { get; set; }
+    public int? BranchID { get; set; }
+    public decimal? DayNum { get; set; }
+    public int? ItemID { get; set; }
+    public string ItemNote { get; set; } = string.Empty;
+    public int? ItemUnitID { get; set; }
+    public string ItemUnitType { get; set; } = string.Empty;
+    public decimal? LastCost { get; set; }
+    public decimal? NetTotalPrice { get; set; }
+    public decimal? NetUnitPrice { get; set; }
+    public decimal? PercentDisc { get; set; }
+    public int? Purchese_ID { get; set; }
+    public decimal? Quantity { get; set; }
+    public decimal? QuantityDelivered { get; set; }
+    public int SN { get; set; }
+    public decimal? SmallUnitPrice { get; set; }
+    public int? StoreID { get; set; }
+    public decimal? SumPrice { get; set; }
+    public decimal? TotalPrice { get; set; }
+    public decimal? UnitPrice { get; set; }
+    public decimal? VAT { get; set; }
+    public decimal? VAT_Discount { get; set; }
+}

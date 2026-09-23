@@ -1,0 +1,48 @@
+using System;
+
+namespace GTSErpSystem.Models;
+
+public class Order_OrdersDetails
+{
+    public int ID { get; set; }
+    public decimal? Amount_Discount { get; set; }
+    public decimal? Bounce { get; set; }
+    public int? BranchID { get; set; }
+    public string DetailsData { get; set; } = string.Empty;
+    public decimal? Height { get; set; }
+    public bool? IsPrint { get; set; }
+    public bool? IsPrintCook { get; set; }
+    public bool? IsWaiting { get; set; }
+    public int? ItemID { get; set; }
+    public int? ItemIDADD { get; set; }
+    public string ItemNote { get; set; } = string.Empty;
+    public int? ItemUnitID { get; set; }
+    public string ItemUnitType { get; set; } = string.Empty;
+    public decimal? LastCost { get; set; }
+    public decimal? Long { get; set; }
+    public decimal? NetTotalPrice { get; set; }
+    public decimal? NetUnitPrice { get; set; }
+    public decimal? Per_Discount { get; set; }
+    public decimal? PriceInstall { get; set; }
+    public decimal? PriceInstallDise { get; set; }
+    public int? Purchese_ID { get; set; }
+    public decimal? Quantity { get; set; }
+    public int? R_ADDId { get; set; }
+    public int? R_ItmSN { get; set; }
+    public int? R_RowId { get; set; }
+    public int SN { get; set; }
+    public decimal? SmallUnitPrice { get; set; }
+    public int? StoreID { get; set; }
+    public decimal? TafqitQunitity { get; set; }
+    public int? TafqitUnitId { get; set; }
+    public decimal? TobaccoTax { get; set; }
+    public decimal? TobaccoTaxDis { get; set; }
+    public decimal? TotalPrice { get; set; }
+    public decimal? TotalWithTaxTobacco { get; set; }
+    public decimal? UnitNumber { get; set; }
+    public decimal? UnitPrice { get; set; }
+    public decimal? VAT { get; set; }
+    public decimal? VAT_Discount { get; set; }
+    public decimal? Weight { get; set; }
+    public decimal? width { get; set; }
+}
